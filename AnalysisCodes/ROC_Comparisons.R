@@ -11,8 +11,6 @@ ids <- unlist(strsplit(ids, "_AllRes_PDB.RData"))
 ids <- ids[ind]
 
 vect <- c()
-vect2 <- c()
-vect3 <- c()
 thrs <- c(0, 5)
 close_vals <- 8
 far_val <- 16
