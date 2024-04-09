@@ -1,4 +1,5 @@
-PHACE - Phylogeny-Aware Co-Evolution Algorithm
+
+### PHACE - Phylogeny-Aware Co-Evolution Algorithm
 
 
 The co-evolution trends of amino acids within or between genes offer valuable insights into protein structure and function. Existing tools for uncovering
