@@ -15,4 +15,11 @@ PSICOV, and MIp), our method exhibits significantly superior accuracy in identif
 MCC, AUC, and F1 score. The success of PHACE stems from our capacity to account for the often-overlooked phylogenetic dependency.
 
 ![Outline of the PHACE algorithm](https://github.com/nurdannkuru/PHACE/raw/main/Outline.png)
-*Figure 1. Outline of the PHACE algorithm*
+     
+     *Figure 1. Outline of the PHACE algorithm*
+
+
+Below, you'll find a sample result for 862 proteins.
+
+![Result](https://github.com/nurdannkuru/PHACE/raw/main/Result.png)
+
