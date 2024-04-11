@@ -16,10 +16,13 @@ MCC, AUC, and F1 score. The success of PHACE stems from our capacity to account 
 
 ![Outline of the PHACE algorithm](https://github.com/nurdannkuru/PHACE/raw/main/Outline.png)
      
-*Figure 1. Outline of the PHACE algorithm*
+<div style="text-align:center">*Figure 1. Outline of the PHACE algorithm*</div>
 
 
-Below, you'll find a sample result for 862 proteins.
+A sample result for 862 proteins is provided in Figure 2.
 
 ![Result](https://github.com/nurdannkuru/PHACE/raw/main/Result.png)
+
+<div style="text-align:center">*Figure 2. Comparison of all tools over a common set in terms of AUC*</div>
+
 
