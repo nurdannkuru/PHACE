@@ -14,12 +14,10 @@ vect <- c()
 thrs <- c(0, 5)
 close_vals <- 8
 far_val <- 16
-kk <- 0
 for (thr in thrs){
   for (close_val in close_vals){
     for (id in ids){
-      kk <- kk + 1
-      print(c(kk, id, length(ids)))
+      print(c(id, length(ids)))
       load(sprintf("Pairwise%s/%s_AllRes_PDB.RData", alg, id))
       
       ind <- c(which(colnames(mat)=="Pos1"), which(colnames(mat)=="Pos2"), which(colnames(mat)=="Dist"),
