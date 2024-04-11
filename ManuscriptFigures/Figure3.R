@@ -67,10 +67,10 @@ for (close in closes){
     
 }
   
-
+combined_plot <- plot_grid(p1, p2, ncol = 2)
 combined_plot <- combined_plot +
   draw_label("a", x = 0, y = 1, size = 20, vjust = 1, hjust = 0) +
   draw_label("b", x = 0.5, y = 1, size = 20, vjust = 1, hjust = 0) 
 combined_plot 
 
-ggsave(sprintf("All_ROC_Paper.pdf"), combined_plot, width = ( 210/25.4), height = 4)
+ggsave(sprintf("All_ROC_Paper.pdf"), combined_plot, width = (210/25.4), height = 4)
