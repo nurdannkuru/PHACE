@@ -10,16 +10,12 @@ ids <- ids[ind]
 close_vals <- 8
 far_vals <- 16
 thrs <- c(0, 5) 
-kk <- 0
-balanced <- 0
 vect <- c()
-keep <- c()
 for (far_val in far_vals){
   for (close_val in close_vals){
     for (thr in thrs){
       for (id in ids){
-        kk <- kk + 1
-        print(c(kk, id, length(ids)))
+        print(c(id, length(ids)))
         load(sprintf("Pairwise%s/%s_AllRes_PDB.RData", alg, id))
         
         ind <- c(which(colnames(mat)=="Pos1"), which(colnames(mat)=="Pos2"), which(colnames(mat)=="Dist"),
@@ -62,14 +58,8 @@ for (far_val in far_vals){
         
         if (length(sub1$Pos1)>=5 && length(sub2$Pos1)>=5){
           
-          co <- which(as.numeric(mat$Dist)<=close_val)
-          dif <- which(abs(as.numeric(mat$Pos1)-as.numeric(mat$Pos2))>=thr)
-          co <- intersect(co, dif)
-          
+          co <- which(as.numeric(mat$Dist)<=close_val)          
           nonco <- which(as.numeric(mat$Dist)>=far_val)
-          
-          threshold_index <- round(length(sorted_data) * 0.97)
-          threshold <- sorted_data[threshold_index]
           
           co_pred_phace <- which(as.numeric(mat$ScoreUpd)>=0.25)
           nonco_pred_phace <- setdiff(1:length(mat$Pos1), co_pred_phace)
