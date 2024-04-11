@@ -14,5 +14,5 @@ we employ an MSA-masking approach. When compared to tools utilizing phylogeny (e
 PSICOV, and MIp), our method exhibits significantly superior accuracy in identifying co-evolving position pairs, as measured by statistical metrics including 
 MCC, AUC, and F1 score. The success of PHACE stems from our capacity to account for the often-overlooked phylogenetic dependency.
 
-![alt text](https://github.com/nurdannkuru/PHACE/blob/main/Outline.pdf)
-    <center>Figure 1. Outline of the PHACE algorithm</center>
+![Outline of the PHACE algorithm](https://github.com/nurdannkuru/PHACE/raw/main/Outline.pdf)
+*Figure 1. Outline of the PHACE algorithm*
