@@ -1,4 +1,4 @@
-The list of tools and the link which we downloaded the tool is given below.
+The list of tools, along with the link from which we downloaded the tools, is provided below.
 
 ### CAPS [1]
 https://caps.tcd.ie/caps/downloads.html
