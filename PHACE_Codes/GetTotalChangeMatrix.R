@@ -12,10 +12,10 @@ args = commandArgs(trailingOnly=TRUE)
 id <- args[1]
 print(id)
 
-load(sprintf("Part1_AC/%s_UpdAC.RData", id))
+load(sprintf("Part1_AC/%s_MSA1.RData", id))
 main <- data
 rm(data)
-load(sprintf("Part1_Gap/%s_UpdGap.RData", id))
+load(sprintf("Part1_Gap/%s_MSA2.RData", id))
 gap <- data
 rm(data)
 
