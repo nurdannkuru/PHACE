@@ -48,7 +48,7 @@ MCC, AUC, and F1 score. The success of PHACE stems from our capacity to account 
 2. Execute the final code to acquire PHACE results. Refer to [PHACE.R](https://github.com/nurdannkuru/PHACE/blob/main/PHACE_Codes/PHACE.R) for the code.
 
 
-#### Results
+# Results
 
 A sample result for 862 proteins is provided in Figure 2.
 
