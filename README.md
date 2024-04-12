@@ -29,9 +29,6 @@ A sample result for 862 proteins is provided in Figure 2.
 
 ### How to Obtain PHACE Results
 
-MSA1
-### How to Obtain PHACE Results
-
 #### MSA1
 
 1. Calculate the tolerance score per amino acid per position using [ToleranceScore.R](https://github.com/nurdannkuru/PHACE/blob/main/PHACE_Codes/ToleranceScore.R).
