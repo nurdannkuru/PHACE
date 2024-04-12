@@ -31,7 +31,7 @@ wccc <- function(Y, X, W) {
 
 file_fasta <- sprintf("%s_MSA1.fasta", id)
 file_fasta_org <- sprintf("%s_MaskedMSA.fasta", id)
-file_nwk <- sprintf("%s.treefile", id)
+file_nwk <- sprintf("%s_MSA1.treefile", id)
 
 tr_org <- read.tree(file_nwk)
 tree_info <- as.data.frame(as_tibble(tr_org))
