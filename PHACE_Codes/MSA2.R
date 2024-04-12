@@ -36,4 +36,4 @@ for (i in seq(2, (num_leaves*2), 2)){
   vect[i, 1] <- paste(msa[k,], collapse = "")
 }
 
-write.table(vect, quote = F, col.names = F, row.names = F, sprintf("MSAs/%s_Upd_Gap.fasta", id))
+write.table(vect, quote = F, col.names = F, row.names = F, sprintf("MSA2/%s_MSA2.fasta", id))
