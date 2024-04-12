@@ -1,5 +1,5 @@
 
-### PHACE - Phylogeny-Aware Co-Evolution Algorithm
+# PHACE - Phylogeny-Aware Co-Evolution Algorithm
 
 
 The co-evolution trends of amino acids within or between genes offer valuable insights into protein structure and function. Existing tools for uncovering
@@ -19,15 +19,7 @@ MCC, AUC, and F1 score. The success of PHACE stems from our capacity to account 
                                              Figure 1. Outline of the PHACE algorithm
 
 
-
-A sample result for 862 proteins is provided in Figure 2.
-
-![Result](https://github.com/nurdannkuru/PHACE/raw/main/Result.png)
-
-                          Figure 2. Comparison of all tools over a common set in terms of AUC
-
-
-### How to Obtain PHACE Results
+# How to Obtain PHACE Results
 
 #### MSA1
 
@@ -55,4 +47,17 @@ A sample result for 862 proteins is provided in Figure 2.
 1. Merge the matrices obtained from MSA1 and MSA2. Refer to [GetTotalChangeMatrix.R](https://github.com/nurdannkuru/PHACE/blob/main/PHACE_Codes/GetTotalChangeMatrix.R) for implementation details.
 2. Execute the final code to acquire PHACE results. Refer to [PHACE.R](https://github.com/nurdannkuru/PHACE/blob/main/PHACE_Codes/PHACE.R) for the code.
 
+
+#### Results
+
+A sample result for 862 proteins is provided in Figure 2.
+
+![Result](https://github.com/nurdannkuru/PHACE/raw/main/Result.png)
+
+                          Figure 2. Comparison of all tools over a common set in terms of AUC
+
+
+# Citing this work
+
+Kuru N., Adebali O. (2024). PHACE: Phylogeny-Aware Co-Evolution
 
