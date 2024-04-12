@@ -23,9 +23,9 @@ num_to_aa <- function(num) {
 
 id <- args[1]
 
-file_fasta <- sprintf("/cta/users/nkuru/COEVOLUTION_DATA/Gap_and_Others/MSAs/%s_Upd_Gap.fasta", id)
-file_nwk <- sprintf("../ASRs_Gap/%s/%s.treefile", id, id)
-file_rst <- sprintf("../ASRs_Gap/%s/%s.state", id, id)
+file_fasta <- sprintf("%s_MSA2.fasta", id)
+file_nwk <- sprintf("%s_MSA2.treefile", id, id)
+file_rst <- sprintf("%s_MSA2.state", id, id)
 
 output_name <- id
 
