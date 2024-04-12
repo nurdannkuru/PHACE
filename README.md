@@ -25,7 +25,7 @@ MCC, AUC, and F1 score. The success of PHACE stems from our capacity to account 
 
 1. Calculate the tolerance score per amino acid per position using [ToleranceScore.R](https://github.com/nurdannkuru/PHACE/blob/main/PHACE_Codes/ToleranceScore.R).
 2. Generate MSA1, which comprises three characters: C (dominant amino acids), A (alternate amino acids), and - (gap), based on the tolerance scores computed in the previous step. Refer to the [MSA1_Code](https://github.com/nurdannkuru/PHACE/blob/main/PHACE_Codes/Part1_MSA1.R) for implementation.
-3. Perform Ancestral Sequence Reconstruction with the following command:
+3. Perform Ancestral Sequence Reconstruction (ASR) with the following command:
 
                                  iqtree2 -s ${file_fasta} -te ${file_nwk} -blfix -m Data/vals_MSA1.txt -asr --prefix ${id}_MSA1 --safe
    
@@ -35,7 +35,7 @@ MCC, AUC, and F1 score. The success of PHACE stems from our capacity to account 
 #### MSA2
 
 1. Formulate MSA2, which includes two characters: C (all amino acids) and G (gap).
-2. Execute Ancestral Sequence Reconstruction with the following command:
+2. Execute ASR with the following command:
 
                                  iqtree2 -s ${file_fasta} -te ${file_nwk} -blfix -m Data/vals_MSA2.txt-asr --prefix ${id}_MSA2 --safe
 
