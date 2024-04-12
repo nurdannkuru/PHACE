@@ -21,9 +21,9 @@ num_to_aa <- function(num) {
   return(aa)
 }
 
-file_fasta <- sprintf("/cta/users/nkuru/COEVOLUTION_DATA/Ref_and_Others2/MSAs/%s_UpdAC.fasta", id)
-file_nwk <- sprintf("../ASRs_AC/ASRs/%s/%s.treefile", id, id)
-file_rst <- sprintf("../ASRs_AC/ASRs/%s/%s.state", id, id)
+file_fasta <- sprintf("%s_MSA1.fasta", id)
+file_nwk <- sprintf("%s_MSA1.treefile", id, id)
+file_rst <- sprintf("%s_MSA1.state", id, id)
 
 output_name <- id
 
